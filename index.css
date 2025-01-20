@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(64, 64, 58);
+    display: flex;
+    padding: 15px;
+    color: rgb(153, 153, 127);
+}
+
+.logo {
+    margin-left: 50px;
+    cursor: pointer;
+    font-size: large;
+}
+
+.header_navigation {
+    display: flex;
+    gap: 2vw;
+    margin-left: 45vw;
+    cursor: pointer;
+    font-size: large;
+}
+
+.header_register {
+    background-color: white;
+    text-align: center;
+    align-content: center;
+    border-radius: 2vw;
+    width: 150px;
+    height: 25px;
+    color: black;
+    align-items: center;
+}
+
+body {
+    background-image: url("img/fon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.fon_text_registration {
+    background-color: white;
+    margin-left: 800px;
+    margin-top: 200px;
+    width: 300px;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 30px;
+    height: 30px;
+    background-color: rgb(46, 46, 41);
+    color: white;
+}
+
+.input_register {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 800px;
+    padding: 30px;
+    background-color: rgb(46, 46, 41);
+    row-gap: 20px;
+}
+
+.name_register {
+    height: 25px;
+    padding: 5px;
+}
+
+.email_register {
+    height: 25px;
+    padding: 5px;
+}
+
+.password_register {
+    height: 25px;
+    padding: 5px;
+}
+
+.submit_password_register {
+    height: 25px;
+    padding: 5px;
+}
+
+.submit_register {
+    background-color: gray;
+    color: white;
+    height: 25px;
+    align-content: center;
+    text-align: center;
+}
